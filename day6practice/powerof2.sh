@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 
 exp=2
@@ -6,7 +6,7 @@ result=1
 
 while [  $result -le 256 ]
 do
-    echo  "power table of the 2 is:$result"
+    echo  "power table of the $number is:$result"
 
     result=$(($result*$exp))
 
